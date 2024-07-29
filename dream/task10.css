@@ -1,0 +1,25 @@
+.box>p{
+    background-color: brown;
+}
+p{
+    background-color: chocolate;
+}
+.box p{
+    background-color: chartreuse;
+}
+.box+ p{
+    background-color: darkmagenta;
+}
+.box~ p{
+    background-color: rgb(109, 14, 218);
+}
+
+[href]{
+    background-color: rgb(100, 36, 6);
+}
+a[href$="jpg"]{
+    background-color: rgba(52, 166, 201, 0.863);
+}
+a[href*="jpg"]{
+    background-color: rgb(7, 184, 169);
+}
