@@ -1,0 +1,17 @@
+body{
+    position:relative ;
+    height: 100vh;
+    width: 100vw;
+}
+.box{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: coral;
+   /*transform: translatex(30px) translatey(100px);*/
+   /*transform: rotate(-30deg);*/
+   /*transform: perspective(20vh);*/
+ /*  transform: perspective(40vh) rotatex(30deg) translate(3px);*/
+ /*transform: skew(45deg);*/
+ transform: skewx(55deg);
+}
